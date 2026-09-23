@@ -4,6 +4,7 @@ This project is a custom implementation of the classic game "Snake," built using
 The physical hardware (Arduino) acts as the arcade controller and sensory feedback system, while the PC handles the multithreaded game engine and rendering.
 
 **Features**
+
 Live Speed Control: Turn the physical potentiometer to dynamically change the game's speed/framerate while playing.
 
 Sensory Feedback: The RGB LED shifts colors based on game events (Blue = Default, Green = Eat, Red/Yellow = Crash).
@@ -18,6 +19,7 @@ Flicker-Free Rendering: Custom C++ Windows API implementation overwrites console
 
 
 **Hardware Setup**
+
 Microcontroller: Arduino Uno
 
 Display: PC Command Line (C++ Engine)
@@ -29,6 +31,7 @@ Joystick, potentiometer, buzzer, RGB LED, button, wires and resistors accordingl
 
 
 **Software Architecture**
+
 The system consists of two highly decoupled environments communicating over UART (115200 Baud).
 
 1. Arduino (Hardware Controller)
